@@ -13,3 +13,5 @@ Ubuntu 20.04 ROS Noetic Example how to setup Intel RealSense T265 with RPLIDAR. 
 * Run `source devel/setup.bash` in your workspace folder
 * Run `roslaunch ros_t265_rplidar t265_rplidar.launch` in your workspace folder
 * You should now see the Laserdata in a rviz windows and be able to move your T265 and RPILIDAR
+
+ ![T265 RPILIDAR RVIZ](img/t265_rplidar_rviz.png)
