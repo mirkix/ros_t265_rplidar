@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="tf" type="static_transform_publisher" name="cameratolaser" args="0 0 0 3.1415 0 0 /camera_link /laser 100"/>
+    <include file="$(find realsense2_camera)/launch/rs_t265.launch" />
+    <include file="$(find rplidar_ros)/launch/rplidar.launch" />
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find ros_t265_rplidar)/rviz/t265_rplidar.rviz" />
+</launch>
