@@ -1,5 +1,8 @@
 Ubuntu 20.04 ROS Noetic Example how to setup Intel RealSense T265 with RPLIDAR. T265 will be used for odometrydata 
 
+# Hardware
+This package provide a STL file for a bracket which you can print with a 3D printer. This bracket connects the T265 with the RPILIDAR.
+
 # Setup
 * Setup ROS Noetic
 * Create a catkin workspace
